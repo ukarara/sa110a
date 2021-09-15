@@ -10,7 +10,7 @@
 課程內容 | https://gitlab.com/ccc110/sa
 
 
-# 課程安排
-| 周次 |內容|   |
+# 課程筆記
+| 周次 |內容|
 |--|--|
-!W1|
+|[W1]((https://github.com/ukarara/sa110a/W1.md))|介紹
