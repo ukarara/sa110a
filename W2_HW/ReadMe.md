@@ -1,7 +1,7 @@
 # 從 lodash 上面選三個函數，撰寫函數與測試
 [lodash](https://lodash.com/)
 1. 先用傳統方式，先寫函數再寫測試fromPairs
-2. 用 TDD 方式，先寫測試再寫函數zipObject
+2. 用 TDD 方式，先寫測試再寫函數unzip
 3. 用 BDD 方式，先寫測試再寫函數zipWith
 
 ## 傳統
@@ -36,6 +36,6 @@ objA= { a: 4, b: 6, c: 2 } objB= { name: "lodash", time: "0922", used: "js" }
 
 ## TDD
 * 先寫測試再寫函數
-## zipObject
+## unzip
 功能:類似_.fromPairs。接受兩數組，第一組為key，第二組為對應的value
 
