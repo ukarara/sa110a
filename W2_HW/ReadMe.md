@@ -36,6 +36,39 @@ objA= { a: 4, b: 6, c: 2 } objB= { name: "lodash", time: "0922", used: "js" }
 
 ## TDD
 * 先寫測試再寫函數
-## unzip
-功能:類似_.fromPairs。接受兩數組，第一組為key，第二組為對應的value
+## lt(a,n)
+功能:驗證在長度為n的array中第a個是否存在
 
+* 測試
+```
+import { assertEquals } from "https://deno.land/std@0.63.0/testing/asserts.ts";
+import * as _ from "../src/ccclodash.ts";
+
+
+Deno.test("lt", () => {
+  assertEquals(_.lt(1, 3))
+  assertEquals(_.lt(3, 1))
+})
+
+
+```
+* 程式
+```
+export function lt( value: number, other: number) {
+  if (!(typeof value === 'string' && typeof other === 'string')) {
+    value = +value
+    other = +other
+  }
+  return value < other
+}
+```
+* 測試成功
+```
+PS D:\110-2Note\SA\sa110a\W2_HW\tdd\example> deno test ex1.ts
+Check file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts
+_.lt(1,3)= true
+_.lt(1,3)= false
+running 0 tests from file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (53ms)
+```

@@ -1,22 +1,29 @@
-import filter from './filter.js';
-import map from './map.js';
-import baseProperty from './baseProperty.js';
-import isArrayLikeObject from './isArrayLikeObject.js';
+/**
+ * Checks if `value` is less than `other`.
+ *
+ * @since 3.9.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if `value` is less than `other`,
+ *  else `false`.
+ * @see gt, gte, lte
+ * @example
+ *
+ * lt(1, 3)
+ * // => true
+ *
+ * lt(3, 3)
+ * // => false
+ *
+ * lt(3, 1)
+ * // => false
+ */
 
-export function chunk(list:any[], n:number):any[] {
-  const clist = []
-  for (let i=0; i<list.length; i+=n) {
-    clist.push(list.slice(i, i+n))
+export function lt( value: number, other: number) {
+  if (!(typeof value === 'string' && typeof other === 'string')) {
+    value = +value
+    other = +other
   }
-  return clist
-}
-
-export function unzip(array) {
-  const unzip = arr =>
-   arr.reduce(
-      (acc, val) => (val.forEach((v, i) => acc[i].push(v)), acc),
-      Array.from({
-         length: Math.max(...arr.map(x => x.length))
-      }).map(x => [])
-   );
+  return value < other
 }
