@@ -14,3 +14,9 @@
 | 周次 |內容|
 |--|--|
 |[W1]((https://github.com/ukarara/sa110a/W1.md))|介紹
+|[W2]((https://github.com/ukarara/sa110a/W2.md))|查表法、單元測試
+
+* 使用程式:JS
+```
+deno run name.js
+```
