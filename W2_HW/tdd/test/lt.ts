@@ -1,9 +1,7 @@
 import { expect } from 'https://deno.land/x/tdd/mod.ts'
 import { assertEquals } from "https://deno.land/std@0.63.0/testing/asserts.ts";
-import * as _ from "../src/ccclodash.ts";
-
-import { lt } from '../src/lt.ts'
-import { Ord } from '../src/types/index.ts'
+import {lt} from "../src/ccclodash.ts";
+import { Ord } from '../src/index.ts'
 
 Deno.test('lt', () => {
   const table: [Ord, Ord, boolean][] = [

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.takewhile": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.8"
+  }
+}

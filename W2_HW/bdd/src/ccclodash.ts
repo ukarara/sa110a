@@ -1,3 +1,6 @@
+import {baseWhile} from '../../node_modules/lodash'
+import {getIteratee} from '../../node_modules/lodash'
+
 // chunk(['a', 'b', 'c', 'd'], 2) => [['a', 'b'], ['c', 'd']]
 // chunk(['a', 'b', 'c', 'd'], 3) => [['a', 'b', 'c'], ['d']]
 export function chunk(list:any[], n:number):any[] {
@@ -27,4 +30,10 @@ export function concat(...args: any[]) {
     clist = clist.concat(args[i])
   }
   return clist
+}
+
+export function takeWhile(array, predicate) {
+  return (array && array.length)
+    ? baseWhile(array, getIteratee(predicate, 3))
+    : [];
 }

@@ -72,3 +72,6 @@ running 0 tests from file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts
 
 test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (53ms)
 ```
+
+## BDD
+先寫規格，再測試最後寫函數
