@@ -1,12 +1,9 @@
 import * as _ from '../src/ccclodash.ts'
-import { expect } from 'https://deno.land/x/tdd/mod.ts'
 
-console.log("_.chunk(['a', 'b', 'c', 'd'], 2)=", _.chunk(['a', 'b', 'c', 'd'], 2))
-console.log("_.chunk(['a', 'b', 'c', 'd'], 3)=", _.chunk(['a', 'b', 'c', 'd'], 3))
-// console.log("_.chunk(['a', 'b', 'c', 'd'], 3)=", _.chunk(['a', 'b', 'c', 'd'], '3'))
 
-var array = [1];
-var c1 = _.concat(array, 2, [3], [[4]])
-console.log(c1)
-
-var takeWhile = require('lodash.takewhile');
+const a = _.gte(3, 1); // => true
+console.log('_.gte(3, 1)=', a)
+const b = _.gte(1, 3); // => false
+console.log('_.gte(1, 3)=', b)
+const c = _.gte(3, 3); // => true
+console.log('_.gte(3, 3)=', c)
