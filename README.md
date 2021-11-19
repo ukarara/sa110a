@@ -13,8 +13,10 @@
 # 課程筆記
 | 周次 |內容|
 |--|--|
-|[W1](https://github.com/ukarara/sa110a/blob/master/W1.md)|介紹
-|[W2](https://github.com/ukarara/sa110a/blob/master/W2.md)|查表法、單元測試
+|[W1](https://github.com/ukarara/sa110a/blob/master/W1.md)9/15|介紹
+|[W2](https://github.com/ukarara/sa110a/blob/master/W2.md)9/22|查表、單元測試
+|[W3](https://github.com/ukarara/sa110a/blob/master/W3.md)9/29|
+
 
 * 使用程式:JS
 ```
