@@ -41,37 +41,32 @@ objA= { a: 4, b: 6, c: 2 } objB= { name: "lodash", time: "0922", used: "js" }
 
 * 測試
 ```
-import { assertEquals } from "https://deno.land/std@0.63.0/testing/asserts.ts";
-import * as _ from "../src/ccclodash.ts";
+import { Ord } from '../src/index.ts'
 
+const lt = <T extends Ord>(a: T, b: T): boolean => a < b
 
-Deno.test("lt", () => {
-  assertEquals(_.lt(1, 3))
-  assertEquals(_.lt(3, 1))
-})
-
-
+export { lt }
 ```
-* 程式
-```
-export function lt( value: number, other: number) {
-  if (!(typeof value === 'string' && typeof other === 'string')) {
-    value = +value
-    other = +other
-  }
-  return value < other
-}
-```
+
+
 * 測試成功
-```
+```PS
 PS D:\110-2Note\SA\sa110a\W2_HW\tdd\example> deno test ex1.ts
 Check file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts
 _.lt(1,3)= true
-_.lt(1,3)= false
-running 0 tests from file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts
+_.lt(3,3)= false
+running 0 tests from file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/example/ex1.ts     
 
-test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (53ms)
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (26ms)
+
 ```
+```
+PS D:\110-2Note\SA\sa110a\W2_HW\tdd\test> deno test lt.ts
+Check file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/test/lt.ts
+running 1 test from file:///D:/110-2Note/SA/sa110a/W2_HW/tdd/test/lt.ts
+test lt ... ok (14ms)
 
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (56ms)
+```
 ## BDD
 先寫規格，再測試最後寫函數
