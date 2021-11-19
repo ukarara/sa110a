@@ -11,11 +11,13 @@
 
 
 # 課程筆記
-| 周次 |內容|
-|--|--|
-|[W1](https://github.com/ukarara/sa110a/blob/master/W1.md)9/15|介紹
-|[W2](https://github.com/ukarara/sa110a/blob/master/W2.md)9/22|查表、單元測試
-|[W3](https://github.com/ukarara/sa110a/blob/master/W3.md)9/29|
+| 周次 | 日期 |內容|
+|--|--|--|
+|[W1](https://github.com/ukarara/sa110a/blob/master/W1.md)| 9/15 |介紹
+|[W2](https://github.com/ukarara/sa110a/blob/master/W2.md)| 9/22 |查表、單元測試
+|[W3](https://github.com/ukarara/sa110a/blob/master/W3.md)| 9/29 |git flow
+|[W4](https://github.com/ukarara/sa110a/blob/master/W4.md)| 10/6 |git 合作
+|[W5](https://github.com/ukarara/sa110a/blob/master/W5.md)| 10/13 |雜湊，暴力法，區塊鏈
 
 
 * 使用程式:JS
