@@ -18,9 +18,23 @@
 |[W3](https://github.com/ukarara/sa110a/blob/master/W3.md)| 9/29 |git flow
 |[W4](https://github.com/ukarara/sa110a/blob/master/W4.md)| 10/6 |git 合作
 |[W5](https://github.com/ukarara/sa110a/blob/master/W5.md)| 10/13 |雜湊，暴力法，區塊鏈
+|[W6](https://github.com/ukarara/sa110a/blob/master/W6.md)| 10/20 |介紹
+|[W7](https://github.com/ukarara/sa110a/blob/master/W7.md)| 10/27 |介紹
+|[W8](https://github.com/ukarara/sa110a/blob/master/W8.md)| 11/3 |介紹
+|[W9](https://github.com/ukarara/sa110a/blob/master/W9.md)| 11/10 |介紹
+|[W10](https://github.com/ukarara/sa110a/blob/master/W10.md)| 11/17 |介紹
+|[W11](https://github.com/ukarara/sa110a/blob/master/W11.md)| 11/24 |介紹
+|[W12](https://github.com/ukarara/sa110a/blob/master/W12.md)| 12/1 |介紹
+|[W13](https://github.com/ukarara/sa110a/blob/master/W13.md)| 12/8 |介紹
+|[W14](https://github.com/ukarara/sa110a/blob/master/W14.md)| 12/15 |介紹
+|[W15](https://github.com/ukarara/sa110a/blob/master/W15.md)| 12/22 |介紹
+|[W16](https://github.com/ukarara/sa110a/blob/master/W16.md)| 12/29 |介紹
+|[W17](https://github.com/ukarara/sa110a/blob/master/W17.md)|1/5|計算理論|
 
 
-* 使用程式:JS
+* 使用程式: JS
 ```
 deno run name.js
+
+node name.js
 ```
