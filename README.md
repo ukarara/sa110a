@@ -18,8 +18,8 @@
 |[W3](https://github.com/ukarara/sa110a/blob/master/W3.md)| 9/29 |git flow
 |[W4](https://github.com/ukarara/sa110a/blob/master/W4.md)| 10/6 |git 合作
 |[W5](https://github.com/ukarara/sa110a/blob/master/W5.md)| 10/13 |雜湊，暴力法，區塊鏈
-|[W6](https://github.com/ukarara/sa110a/blob/master/W6.md)| 10/20 |介紹
-|[W7](https://github.com/ukarara/sa110a/blob/master/W7.md)| 10/27 |介紹
+|[W6](https://github.com/ukarara/sa110a/blob/master/W6.md)| 10/20 |亂數、蒙地卡羅、馬可夫鏈
+|[W7](https://github.com/ukarara/sa110a/blob/master/W7.md)| 10/27 |專案合作與管理
 |[W8](https://github.com/ukarara/sa110a/blob/master/W8.md)| 11/3 |介紹
 |[W9](https://github.com/ukarara/sa110a/blob/master/W9.md)| 11/10 |介紹
 |[W10](https://github.com/ukarara/sa110a/blob/master/W10.md)| 11/17 |介紹
