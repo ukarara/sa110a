@@ -30,6 +30,7 @@
 |[W15](https://github.com/ukarara/sa110a/blob/master/W15.md)| 12/22 |介紹
 |[W16](https://github.com/ukarara/sa110a/blob/master/W16.md)| 12/29 |介紹
 |[W17](https://github.com/ukarara/sa110a/blob/master/W17.md)|1/5|計算理論|
+|[Mid](https://github.com/ukarara/sa110a/tree/master/Mid)|期中作業|RSA演算法|
 
 
 * 使用程式: JS
