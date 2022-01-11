@@ -22,13 +22,13 @@
 |[W7](https://github.com/ukarara/sa110a/blob/master/W7.md)| 10/27 |專案合作與管理
 |[W8](https://github.com/ukarara/sa110a/blob/master/W8.md)| 11/3 |作業系統
 |[W9](https://github.com/ukarara/sa110a/blob/master/W9.md)| 11/10 |作業系統實作
-|[W10](https://github.com/ukarara/sa110a/blob/master/W10.md)| 11/17 |介紹
-|[W11](https://github.com/ukarara/sa110a/blob/master/W11.md)| 11/24 |介紹
-|[W12](https://github.com/ukarara/sa110a/blob/master/W12.md)| 12/1 |介紹
-|[W13](https://github.com/ukarara/sa110a/blob/master/W13.md)| 12/8 |介紹
-|[W14](https://github.com/ukarara/sa110a/blob/master/W14.md)| 12/15 |介紹
-|[W15](https://github.com/ukarara/sa110a/blob/master/W15.md)| 12/22 |介紹
-|[W16](https://github.com/ukarara/sa110a/blob/master/W16.md)| 12/29 |介紹
+|[W10](https://github.com/ukarara/sa110a/blob/master/W10.md)| 11/17 |
+|[W11](https://github.com/ukarara/sa110a/blob/master/W11.md)| 11/24 |
+|[W12](https://github.com/ukarara/sa110a/blob/master/W12.md)| 12/1 |
+|[W13](https://github.com/ukarara/sa110a/blob/master/W13.md)| 12/8 |
+|[W14](https://github.com/ukarara/sa110a/blob/master/W14.md)| 12/15 |
+|[W15](https://github.com/ukarara/sa110a/blob/master/W15.md)| 12/22 |
+|[W16](https://github.com/ukarara/sa110a/blob/master/W16.md)| 12/29 |
 |[W17](https://github.com/ukarara/sa110a/blob/master/W17.md)|1/5|計算理論|
 |[Mid](https://github.com/ukarara/sa110a/tree/master/Mid)|期中作業|RSA演算法|
 
