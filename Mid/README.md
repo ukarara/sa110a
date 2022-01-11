@@ -53,7 +53,7 @@ RSA 是由羅納德·李維斯特（Ron Rivest）、阿迪·薩莫爾（Adi Sham
 2. 根據尤拉函數:$$ r = φ(N) = φ(p) \* φ(q) = (p-1)(q-1)$$
 3. 選擇一個小於 r 的整數 e，使 e 與 r 互質。並求得 e 關於 r 的模反元素，命名為 d（求 d 令 ed ≡ 1 (mod
    r))。（模反元素存在，當且僅當 e 與 r 互質）
-4. 將 p, q 銷毀 ![keys.jpg](./keys.jpg)
+4. 將 p, q 銷毀 ![keys.jpg](./Keys.jpg)
 
 ## 計算範例
 
