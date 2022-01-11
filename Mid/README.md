@@ -123,6 +123,8 @@ fork 自 [github:rzcoder/node-rsa](https://github.com/rzcoder/node-rsa)
 
 # 參考資料
 
-[翻轉工作室](http://www.tsnien.idv.tw/Security_WebBook/chap3/3-4%20RSA%20%E6%BC%94%E7%AE%97%E6%B3%95.html)
-[WIKI](https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95)
-或是標題連結前往~
+- [翻轉工作室](http://www.tsnien.idv.tw/Security_WebBook/chap3/3-4%20RSA%20%E6%BC%94%E7%AE%97%E6%B3%95.html)
+- [WIKI](https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95)
+- [ithome](https://ithelp.ithome.com.tw/articles/10250721)
+- [台部落](https://www.twblogs.net/a/5b8da02a2b717718833f7887)
+- 或是標題連結前往~
